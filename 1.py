@@ -1,3 +1,4 @@
+#Write a Python program to flatten the image matrix into a one-dimensional vector and  calculate the sum of all pixel intensities. 
 
 import numpy as np
 
