@@ -1,0 +1,13 @@
+#Write a Python program to update the weights using the gradient descent rule and display  the updated weight vector. 
+
+import numpy as np
+
+W = np.array([0.7, 0.5, 0.9])
+G = np.array([0.2, 0.1, 0.3])
+learning_rate = 0.1
+
+updated_W = W - learning_rate * G
+
+print("Original Weights:", W)
+print("Gradient:", G)
+print("Updated Weights:", updated_W)
